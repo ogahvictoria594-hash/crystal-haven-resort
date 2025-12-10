@@ -3,22 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Page title -->
 <title>About Us - Crystal Haven Resort</title>
+<!-- Bootstrap CSS -->
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-dark text-white">
 
-
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-warning">
   <div class="container">
+    <!-- Brand / logo -->
     <a class="navbar-brand text-warning fw-bold" href="index.php">Crystal Haven Resort</a>
+    <!-- Mobile hamburger -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="rooms.php">Rooms</a></li>
+        <!-- Highlight current page -->
         <li class="nav-item"><a class="nav-link active text-warning fw-semibold" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
@@ -27,7 +34,7 @@
   </div>
 </nav>
 
-
+<!-- Hero section with overlay text -->
 <section class="position-relative">
   <img src="assets/images/hotel.jpg" class="img-fluid w-100" style="height:450px; object-fit:cover; filter:brightness(70%);">
   <div class="position-absolute top-50 start-50 translate-middle text-center">
@@ -36,8 +43,9 @@
   </div>
 </section>
 
-
+<!-- Main content container -->
 <div class="container my-5">
+  <!-- Our Story card -->
   <div class="card bg-black text-white border-0 shadow-lg mb-4">
     <div class="card-body">
       <h2 class="text-warning">Our Story</h2>
@@ -49,6 +57,7 @@
     </div>
   </div>
 
+  <!-- Our Mission card -->
   <div class="card bg-black text-white border-0 shadow-lg mb-4">
     <div class="card-body">
       <h2 class="text-warning">Our Mission</h2>
@@ -59,6 +68,7 @@
     </div>
   </div>
 
+  <!-- Our Vision card -->
   <div class="card bg-black text-white border-0 shadow-lg">
     <div class="card-body">
       <h2 class="text-warning">Our Vision</h2>
@@ -72,10 +82,12 @@
 
 <!-- Footer -->
 <footer class="bg-black text-center text-secondary py-3 border-top border-secondary mt-5">
+  <!-- Simple copyright -->
   <p class="mb-0">&copy; <?php echo date("Y"); ?> Crystal Haven Resort. All Rights Reserved. |
   <a href="contact.php" class="text-warning text-decoration-none">Contact Us</a></p>
 </footer>
 
+<!-- Bootstrap JS -->
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
